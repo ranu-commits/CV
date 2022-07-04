@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Ranu's Personal Site</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    form{
+        border: 1px solid black;
+        height: 15em;
+        width: 23em;
+        margin-left: 22em;
+        padding: 15px;
+        background-color: pink ;
+        color: brown;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input, textarea{
+        margin: 5px 2px;
+        background-color: rgb(250, 240, 240);
+        border-bottom: 1px sold black;
+    }
+    textarea{
+        width: 26em;
+    }
+    #submit-btn{
+     background-color: rgb(225, 6, 6);
+    }
+</style>
+<body>
+    <h5><a href=homepage.html>Home</a></h5>
+    <h1> Contact Me </h1>
+    <!-- for enabling mailto link procedure go to google settings -> privacy & Security  -> site setting -> permissions section -> additional -> protocole handler -> check first option ->  remove (x)     below mail.google.com  -> new tab -> gmail.com -> on right side  right click on eye icon and check allow option. -->
+     <form action="mailto:nishadranu656@gmail.com" method="post" encrypt="text/plan">
+           <label> Enter Your Full Name :</label>
+           <input type="text" name="Your Name"> <br>
+           <label> Email :</label>
+           <input type="email" name="Your Email"><br>
+           <label> Send Message :</label><br>
+           <textarea name=" Your message " rows="10" cols="10 "></textarea><br><br>
+           <input type="submit" id="submit-btn">
+        </form>
+    </table>
+</body>
+
+</html>
